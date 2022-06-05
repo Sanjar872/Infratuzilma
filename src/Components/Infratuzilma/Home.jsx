@@ -209,7 +209,7 @@ const Home = () => {
 
         <Qwer>
           {/* <Logika> */}
-          <img style={{border:'1px solid green' }} src={MainImg} alt="" />
+          <img src={MainImg} alt="" />
 
           {/* </Logika> */}
           <Krug1>
