@@ -42,6 +42,7 @@ export const BoX = styled.div`
         width:100%;
         transform:scale(0.8)
     }
+    
    
     div {
         width:40%;
@@ -87,6 +88,11 @@ export const Brendlar = styled.div`
         flex-direction:column;
         /* transform:scale(0.8) */
     }
+    @media screen and (max-width:500px) {
+        width:100%;
+    }
+    
+    
 
 
 `
@@ -123,6 +129,9 @@ export const BredRasmlar = styled.img`
 export const BredRasmlar5 = styled.img`
     width:180%;
     height:100px;
+    @media screen and (max-width:556px){
+        width:100%;
+    }
 
 `
 export const BredRasmlar6 = styled.img`

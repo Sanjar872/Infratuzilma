@@ -43,3 +43,18 @@
     font-size: 10px;
   }
 }
+
+
+@media screen and (max-width:563px){
+    .div1{
+        width: 100%;
+    }
+
+    .div2{
+      width:100%;
+
+    }
+ 
+}
+
+
