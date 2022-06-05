@@ -661,7 +661,6 @@ export const Operator = styled.div`
 export const MainContainer = styled.div`
     width:100%;
     height:550px;
-    border:1px solid grey;
     margin-top:150px;
     display:flex;
     justify-content:space-between;
@@ -707,7 +706,6 @@ export const H111 = styled.h3`
 
 export const Promax = styled.p`
           width:85%;
-     border:1px solid yellow;
     display:flex;
     justify-content:center;
     font-weight: 400;
