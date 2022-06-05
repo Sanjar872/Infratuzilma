@@ -882,7 +882,6 @@ export const Qwer = styled.div`
     justify-content:center;
     text-align:center;
     margin-top:20px;
-    border:1px solid green;
     padding-left:100px; 
     @media screen and(max-width:964px){
         transform:scale(0.8);

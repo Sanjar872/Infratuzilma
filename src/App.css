@@ -11,7 +11,6 @@
   display: flex;
   flex-wrap: wrap;
   
-  border: 1px solid darkblue;
   justify-content: space-between;
   
   
@@ -27,12 +26,10 @@
   .div2 {
     width: 30%;
     gap: 50px;
-    /* border: 1px solid red; */
   }
   
   
   .div1 {
-    border: 1px solid red;
     width: 35%;
     height: 100px;
     align-items: center;

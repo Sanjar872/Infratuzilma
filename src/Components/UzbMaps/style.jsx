@@ -3,11 +3,9 @@ import styled from "styled-components";
 export const Container = styled.div`
     width:100%;
     height:100vh;
-    border:1px solid red;
 `
 export const Foter = styled.div`
     display:flex;
-    border:1px solid red;
     width:30%;
     h1 {
         font-size:18px;
@@ -16,7 +14,6 @@ export const Foter = styled.div`
 
 export const H1AND = styled.div`
     width:100%;
-    border:1px solid red;
     h1 {
         color:white;
     }
@@ -30,7 +27,6 @@ export const BoX = styled.div`
     @media screen and (max-width:1303px){
         display:flex;
         width:100%;
-        border:1px solid red;
         justify-content:center;
         transform:scale(0.6)
     }
@@ -69,8 +65,6 @@ export const Brendlar = styled.div`
     display:flex;
     justify-content:center;
     align-items: center;
-    /* padding-right:400px; */
-    border: 1px solid yellow;
     h1 {
         text-align: center;
         width: 100%;
@@ -113,7 +107,6 @@ export const PANd = styled.p`
     color:white;
     width:25%;
     padding :50px;
-    border:1px solid red;
     font-size:24px;
     align-items:center;
     font-weight:700;
@@ -130,12 +123,10 @@ export const BredRasmlar = styled.img`
 export const BredRasmlar5 = styled.img`
     width:180%;
     height:100px;
-    border:1px solid red;
 
 `
 export const BredRasmlar6 = styled.img`
     width:100%;
     height:100px;
     margin-right:-50px;
-    border: 1px solid red;
 `

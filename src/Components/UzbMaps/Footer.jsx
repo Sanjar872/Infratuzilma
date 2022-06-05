@@ -18,9 +18,9 @@ const Footer = () => {
       <Brendlar>
             <div class="div1"> <h1>Andijona Pochta Xizmatlari</h1></div>
           <div class="parent">
-            <div class="div2">2<BredRasmlar src={rasm1} alt="" /></div>
-            <div class="div2">3<BredRasmlar src={rasm2} alt="" /> </div>
-            <div class="div2">4<BredRasmlar src={rasm3} alt="" /></div>
+            <div class="div2"><BredRasmlar src={rasm1} alt="" /></div>
+            <div class="div2"><BredRasmlar src={rasm2} alt="" /> </div>
+            <div class="div2"><BredRasmlar src={rasm3} alt="" /></div>
             <div class="div2"><BredRasmlar5 src={rasm4} alt="" /> </div>
             <div class="div2"><BredRasmlar6 src={rasm5} alt="" /></div>
           </div>
