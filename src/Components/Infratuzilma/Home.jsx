@@ -264,19 +264,19 @@ const Home = () => {
 
                 </JalaquduqSh>
               </Tooltip>
-              {/* <Tooltip  title="XUJAOBOT" placement="top-end" enterDelay={55} leaveDelay={0}>
+              <Tooltip  title="XUJAOBOT" placement="top-end" enterDelay={55} leaveDelay={0}>
                 <XujabotSH>
                   <img src={Xujabot} alt="" />
                 <MyLocationOnIconXujabotSH src={MarxamatBinosi} alt="" />
 
                 </XujabotSH>
-              </Tooltip> */}
-              {/* <Tooltip  title="BULOQBOSHI" placement="top-end" enterDelay={55} leaveDelay={0}>
+              </Tooltip>
+              <Tooltip  title="BULOQBOSHI" placement="top-end" enterDelay={55} leaveDelay={0}>
                 <BuloqboshiSH>
                   <img src={Buloqboshi} alt="" />
                 <MyLocationOnIconBuloqboshiSH  src={MarxamatBinosi} alt="" />
                 </BuloqboshiSH>
-              </Tooltip> */}
+              </Tooltip>
               <Tooltip title="MARXAMAT" placement="top-end" enterDelay={55} leaveDelay={0}>
                 <MarxamatSH>
                   <img src={Marxamatt} alt="" />
