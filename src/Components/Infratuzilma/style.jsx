@@ -108,7 +108,7 @@ export const QartaSection = styled.div`
     justify-content:center;
     align-items:center;
     margin-top:40px;
-    /* padding: 0 5%; */
+    padding: 0 5%;
     @media screen and (max-width:1250px) {
         transform:scale(0.8);
         widows:100%;
@@ -159,6 +159,7 @@ export const PP3 = styled.p`
         height:200px;
         line-height:30px;
         font-size:18px;
+        padding-left:30px;
 
         @media screen and (max-width:838px) {
         width: 100%;
@@ -177,6 +178,7 @@ export const PP3 = styled.p`
 export const H33 = styled.h3`
     font-size:24px;
     padding:20px;
+    padding-left:30px;
     @media screen and (max-width:838px) {
         width: 100%;
         font-size:20px;
@@ -218,6 +220,7 @@ export const Bar = styled.div`
 export const Mapuzb = styled.div`
     width:50%;
     height:250px;
+    margin-top:50px;
     border:1px solid yellow;
     position:relative;
     @media screen and (max-width:1235px) {
@@ -257,7 +260,6 @@ export const Mapuzb = styled.div`
 
 `
 export const MapsUzb = styled.div`
-    margin-top:-80px;
    height:400px;
    width:100%;
    border:1px solid red;
@@ -1112,9 +1114,8 @@ export const AndMaps = styled.div`
 
 export const AndijonSH = styled.div`
     position:absolute;
-    top:95px;
-    width:100px;
-    left:292px;
+    top:78px;
+    left:135px;
     display:flex;
     justify-content:center;
     /* opacity:0.5; */
@@ -1131,10 +1132,10 @@ export const ImgQurgontepaBinosi = styled.img`
     color:white;
     position:relative;
     font-size:35px !important;
-    top:50px;
+    top:40px;
     width:50px;
     height:50px;
-    left:-150px;
+    left:-120px;
     &:hover{
         transition:1s;
         transform:scale(1.1);
@@ -1144,9 +1145,8 @@ export const ImgQurgontepaBinosi = styled.img`
 `
 export const JalaquduqSh = styled.div`
     position:absolute;
-    top:120px;
-    width:100px;
-    left:200px;
+    top:83px;
+    left:136px;
     display:flex;
     justify-content:center;
     /* border:1px solid red; */
@@ -1177,10 +1177,9 @@ export const MyLocationOnIconJalaquduqSH = styled.img`
    }
 `
 export const XujabotSH = styled.div`
-      position:relative;
-    top:-515px;
-    width:100px;
-    left:440px;
+      position:absolute;
+    top:158px;
+    left:90px;
     display:flex;
     justify-content:center;
     /* border:1px solid red; */
@@ -1198,10 +1197,10 @@ export const MyLocationOnIconXujabotSH  = styled.img`
     color:white;
     position:relative;
     font-size:35px !important;
-    top:40px;
+    top:10px;
     width:55px;
     height:50px;
-    left:-80px;
+    left:-100px;
     &:hover{
         transition:1s;
         transform:scale(1.1);
@@ -1211,10 +1210,9 @@ export const MyLocationOnIconXujabotSH  = styled.img`
    }
 `
 export const BuloqboshiSH = styled.div`
-       position:relative;
-    top:-620px;
-    width:100px;
-    left:380px;
+       position:absolute;
+    top:185px;
+    left:80px;
     display:flex;
     justify-content:center;
     /* border:1px solid red; */
@@ -1246,9 +1244,8 @@ export const MyLocationOnIconBuloqboshiSH  = styled.img`
 `
 export const MarxamatSH = styled.div`
        position:absolute;
-    top:245px;
-    width:100px;
-    left:70px;
+    top:195px;
+    left:10px;
     display:flex;
     justify-content:center;
     object-fit:contain;
@@ -1268,16 +1265,15 @@ export const MarxamatSH = styled.div`
 export const ImgMarxamatBinosi = styled.img`
         position:relative;
     top:25px;
-    width:100px;
+    width:55px;
     height:55px;
     width:100px;
-    left:-80px;
+    left:-100px;
 `
 export const AndojonSHa = styled.div`
-        position:relative;
-    top:-971px;
-    width:100px;
-    left:399px;
+        position:absolute;
+    top:67px;
+    left:35px;
     display:flex;
     justify-content:center;
     /* border:1px solid red; */
@@ -1298,15 +1294,15 @@ export const ImgAndijonBinosi = styled.img`
     height:100px;
     object-fit:contain;
     left:-110px;
+    z-index:99;
     box-shadow:#90909090;
     
 `
 
 export const PaxtabodSH = styled.div`
         position:absolute;
-    top:0px;
-    width:100px;
-    left:126px;
+    top:-8px;
+    left:50px;
     display:flex;
     justify-content:center;
     &:hover{
@@ -1336,9 +1332,8 @@ export const ImgPaxdabodBinosi = styled.img`
 
 export const IzboskanSH = styled.div`
            position:absolute;
-    top:20px;
-    width:110px;
-    left:45px;
+    top:10px;
+    left:-5px;
     display:flex;
     justify-content:center;
     &:hover{
@@ -1353,18 +1348,17 @@ export const IzboskanSH = styled.div`
 
 export const ImgIzboskanBinosi = styled.img`
               position:relative;
-    top:-10px;
-    width:70px;
-    height:70px;
+    top:30px;
+    width:35px;
+    height:40px;
     width:100px;
-    left:-120px;
+    left:-130px;
 `
 
 export const Oltinkul = styled.div`
-            position:relative;
-    top:-1320px;
-    width:100px;
-    left:245px;
+            position:absolute;
+    top:105px;
+    left:-80px;
     display:flex;
     justify-content:center;
     &:hover{
@@ -1388,10 +1382,9 @@ export const ImgOltinkulBinosi = styled.img`
 `
 
 export const BaliqchiSH = styled.div`
-            position:relative;
-    top:-1430px;
-    width:100px;
-    left:185px;
+            position:absolute;
+    top:70px;
+    left:-165px;
     display:flex;
     justify-content:center;
     &:hover{
@@ -1405,9 +1398,8 @@ export const BaliqchiSH = styled.div`
 `
 export const UlugnorSH = styled.div`
             position:absolute;
-    top:90px;
-    width:100px;
-    left:-200px;
+    top:70px;
+    left:-247px;
     display:flex;
     justify-content:center;
     &:hover{
@@ -1437,9 +1429,8 @@ export const ImgBaliqchiBinosi = styled.img`
 `
 export const BostonSH = styled.div`
              position:absolute;
-    top:160px;
-    width:100px;
-    left:-105px;
+    top:130px;
+    left:-115px;
     display:flex;
     justify-content:center;
     &:hover{
@@ -1462,9 +1453,8 @@ export const ImgBostonBinosi = styled.img`
 `
 export const ShaxrixonSHA = styled.div`
              position:absolute;
-    top:138px;
-    width:100px;
-    left:-51px;
+    top:110px;
+    left:-75px;
     display:flex;
     justify-content:center;
     &:hover{
@@ -1476,18 +1466,17 @@ export const ShaxrixonSHA = styled.div`
 `
 export const ImgShaxrixonBinosi = styled.img`
                  position:relative;
-    top:10px;
+    top:20px;
     width:50px;
-    height:50px;
-    width:100px;
+    height:40px;
+    width:40px;
     left:-70px;
     z-index:99;
 `
 export const AsakaSH = styled.div`
-              position:relative;
-    top:-1825px;
-    width:100px;
-    left:280px;
+              position:absolute;
+    top:150px;
+    left:-30px;
     display:flex;
     justify-content:center;
     &:hover{
@@ -1503,7 +1492,7 @@ export const  ImgAsakaBinosi = styled.img`
     width:50px;
     height:50px;
     width:100px;
-    left:-80px;
+    left:-100px;
 `
 
 export const Harakatlar = styled.div`
@@ -1844,7 +1833,8 @@ export const Paragraov = styled.div`
 
 
 export const Img123 = styled.img`
-        height:380px;
+        height:336px;
+        width:634px;
       /* @media screen and (max-width:735px) {
             border:1px solid red;
             
