@@ -1,21 +1,24 @@
 import React from 'react'
+  //Aos anitions
+  import  AOS  from 'aos';
+
 import {
-  Container, Navbar, Logodiv, Con, Infra, QartaSection,
-  Ozbekiston, Bar, MyWidgetsIcon, MyRocketLounchIcon, MyPhoneIcon,
+  Container,  Con, Infra, QartaSection,
+  Ozbekiston, MyPhoneIcon,
   Mapuzb, ImgKora, Imgdiv, MyLocationOnIcon, MyLocationOnIconXorazm,
   Xorazmdiv, Novoidiv, MyLocationOnIconNovoi, MyLocationOnIconBuxoro, Buxorodiv,
   Jizzaxdiv, MyLocationOnIconJizzax, Samarqanddiv, Karshidiv, MyLocationOnIconKarshi,
   Termizdiv, MyLocationOnIconTermiz, Tashkentdiv, MyLocationOnIconTashkent, Toshdiv,
   Andijondiv, MyLocationOnIconAndijon, Namangandiv,
   MyLocationOnIconNamangan, Ferganadiv, MyLocationOnIconFer, MainContainer, MainMatn,
-  Operator, Krug1, Krug2, Krug3, Qwer, Krug4, Logika, MainMaps, Item,Digital,AndijonMaps,
-  AndMaps,AndijonSH,MyLocationOnIconAndijonSH,JalaquduqSh,MyLocationOnIconJalaquduqSH,XujabotSH,
-  MyLocationOnIconXujabotSH,BuloqboshiSH,MyLocationOnIconBuloqboshiSH,Marxamat, MarxamatSH,
+  Operator, Krug1, Krug2, Krug3, Qwer, Krug4, MainMaps,Digital,AndijonMaps,
+  AndMaps,AndijonSH,JalaquduqSh,MyLocationOnIconJalaquduqSH,XujabotSH,
+  MyLocationOnIconXujabotSH,BuloqboshiSH,MyLocationOnIconBuloqboshiSH, MarxamatSH,
   ImgMarxamatBinosi,AndojonSHa,ImgAndijonBinosi,PaxtabodSH,ImgPaxdabodBinosi,IzboskanSH
   ,Oltinkul,ImgIzboskanBinosi,ImgOltinkulBinosi,BaliqchiSH,UlugnorSH,ImgBaliqchiBinosi,ImgUlugnorBinosi,
   BostonSH,ImgBostonBinosi,ShaxrixonSHA,ImgShaxrixonBinosi,AsakaSH,ImgAsakaBinosi,ImgQurgontepaBinosi,
-  Harakatlar,Harakatdiv,Griddiv,Cardlar,LiniDiv,Img, Border,Paragraov,Span1,PPP,Span2,PP2,Paragraov2,
-  ItKompaniya,MapsUzb,H33,PP3,H111,Promax,PEY,HHH1,IMGG
+  Harakatlar,Harakatdiv,Griddiv,Cardlar,LiniDiv,Img, Border,Paragraov,Paragraov2,
+  ItKompaniya,MapsUzb,H33,PP3,H111,Promax,PEY,HHH1,IMGG,Img123
 } from './style'
 
 //Material-icons
@@ -107,7 +110,7 @@ const Home = () => {
             Bugungi kunga qadar O‘zbekistonning ko‘plab hududlarida IT markazlari tashkil etilgan. Bundan ko'zlangan maqsad qiziquvchan yoshlarni IT ta’limga rag'batlantirish, ularning innovatsion loyihalarini qo'llab quvvatlash va aholi turmush sharoitini yaxshilash kabi masalalar ilgari surilgan.
           </PP3>
         </Ozbekiston>
-
+<br />
         <Mapuzb>
           <MapsUzb>
             <Img src={Maps} alt="" />
@@ -146,7 +149,7 @@ const Home = () => {
           </Tooltip>
           <Tooltip title="KARSHI" placement="top" enterDelay={55} leaveDelay={0}>
             <Karshidiv>
-              <img src={Karshi} alt="" />
+              <img  src={Karshi} alt="" />
               <MyLocationOnIconKarshi />
             </Karshidiv>
           </Tooltip>
@@ -200,7 +203,7 @@ const Home = () => {
       </QartaSection>
       {/* ____________________________________________  */}
 
-
+        <br />
       <MainContainer>
         <MainMatn>
           <H111>Andijon viloyatida IT markazlar </H111>
@@ -239,14 +242,14 @@ const Home = () => {
             <HHH1>	“Digital City” Texnopark</HHH1>
             <PEY>Digital City texnoparki Andijon viloyatidagi yetakchi IT markazlardan biridir. 5,6 gektar maydonda qurib bitkazilgan, 4 kavatli 3,5 ming kv.m. ni tashkil etadigan ushbu majmua axborot texnologiyalari va innovatsion loyihalarni qo‘llab-quvvatlash, dasturiy mahsulotlar eksportini yo‘lga qo‘yish va 50 dan ortiq IT sohasida xizmat ko‘rsatadigan korxonalarni joylashtirish uchun mo‘ljallangan. </PEY>
         </Digital>
-        <div style={{display:'flex', justifyContent:'center',width:'700px;',alignItems:'center', height:'500px',border:'1px solid red;'}}>
+        <div style={{display:'flex', justifyContent:'center',alignItems:'center', height:'500px',border:'1px solid red;',width:'100%;'}}>
         <AndijonMaps>
           
-            
-          
               <AndMaps>
-                <img  src={Andijonn} alt="" />
+                <Img123  src={Andijonn} alt="" />
               </AndMaps>
+          
+            
               <Tooltip title="QURGONTEPA" placement="top-end" enterDelay={55} leaveDelay={0}>
                 <AndijonSH>
                 <img src={XonabodQurgontepaa} alt="" />
@@ -261,19 +264,19 @@ const Home = () => {
 
                 </JalaquduqSh>
               </Tooltip>
-              <Tooltip  title="XUJAOBOT" placement="top-end" enterDelay={55} leaveDelay={0}>
+              {/* <Tooltip  title="XUJAOBOT" placement="top-end" enterDelay={55} leaveDelay={0}>
                 <XujabotSH>
                   <img src={Xujabot} alt="" />
                 <MyLocationOnIconXujabotSH src={MarxamatBinosi} alt="" />
 
                 </XujabotSH>
-              </Tooltip>
-              <Tooltip  title="BULOQBOSHI" placement="top-end" enterDelay={55} leaveDelay={0}>
+              </Tooltip> */}
+              {/* <Tooltip  title="BULOQBOSHI" placement="top-end" enterDelay={55} leaveDelay={0}>
                 <BuloqboshiSH>
                   <img src={Buloqboshi} alt="" />
                 <MyLocationOnIconBuloqboshiSH  src={MarxamatBinosi} alt="" />
                 </BuloqboshiSH>
-              </Tooltip>
+              </Tooltip> */}
               <Tooltip title="MARXAMAT" placement="top-end" enterDelay={55} leaveDelay={0}>
                 <MarxamatSH>
                   <img src={Marxamatt} alt="" />

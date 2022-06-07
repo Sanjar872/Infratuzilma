@@ -8,7 +8,7 @@ import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import PhoneIcon from '@mui/icons-material/Phone';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 
-
+import AndijonQarta from '../../ImgFoter/AndijonQartasi.png'
 
 export const MyWidgetsIcon = styled(WidgetsIcon)`
     color:white !important;
@@ -108,19 +108,27 @@ export const QartaSection = styled.div`
     justify-content:center;
     align-items:center;
     margin-top:40px;
-    padding: 0 5%;
+    /* padding: 0 5%; */
+    @media screen and (max-width:1250px) {
+        transform:scale(0.8);
+        widows:100%;
+    }
+
+    
     @media screen and (max-width:960px) {
         flex-direction:column;
-        height:700px;
-        justify-content:space-between;
+        height:680px;
+        display:flex;
+        border:1px solid red;
+        justify-content:space-between
     }
     @media screen and (max-width:568px) {
-        height:800px;
-        justify-content:space-between;
+        height:500px;
+        align-items: flex-start;
         
     }
     @media screen and (max-width:508px) {
-        height:800px;
+        height:450px;
         justify-content:space-between;
         
     }
@@ -129,15 +137,13 @@ export const QartaSection = styled.div`
         
     }
     @media screen and (max-width:385px) {
-        height:800px;
-        justify-content:space-between;
         
     }
 `
 export const Ozbekiston = styled.div`
-    width:55%;
+    width:50%;
     height:400px;
-    padding:20px;
+    border:1px solid green;
     display:flex;
     flex-direction:column;
     color:white;
@@ -170,6 +176,7 @@ export const PP3 = styled.p`
 `
 export const H33 = styled.h3`
     font-size:24px;
+    padding:20px;
     @media screen and (max-width:838px) {
         width: 100%;
         font-size:20px;
@@ -211,19 +218,16 @@ export const Bar = styled.div`
 export const Mapuzb = styled.div`
     width:50%;
     height:250px;
+    border:1px solid yellow;
     position:relative;
     @media screen and (max-width:1235px) {
         transform:scale(0.8)
     }
-    @media screen and (max-width:1117px) {
-        transform:scale(0.7)
-    }
+  
     @media screen and (max-width:1030px) {
         transform:scale(0.7)
     }
-    @media screen and (max-width:1030px) {
-        transform:scale(0.6)
-    }
+  
     @media screen and (max-width:912px) {
         transform:scale(0.6)
     }
@@ -234,32 +238,53 @@ export const Mapuzb = styled.div`
         width:100%;
         flex-direction:column;
     }
+    @media screen and (max-width:530px) {
+        transform:scale(0.4);
+        margin-left:-30px;
+    }
+    @media screen and (max-width:350px) {
+        width:100%;
+        transform:scale(0.3);
+
+    }
+    @media screen and (max-width:250px){
+        transform:scale(0.2);
+        margin-top:20px;
+        
+
+        
+    }
 
 `
 export const MapsUzb = styled.div`
     margin-top:-80px;
    height:400px;
+   width:100%;
+   border:1px solid red;
    justify-content:center;
+    @media screen and (max-width:1250px) {
+        /* transform:scale(0.8) */
+        width:100%;
+    }
+
     @media screen and (max-width:578px){
-        margin-top:-150px;
+        /* margin-top:-150px; */
     }
     @media screen and (max-width:573px){
-        margin-top:-200px;
+        /* margin-top:-200px; */
     }
     @media screen and (max-width:474px){
         
-        transform:scale(0.9)
+        /* transform:scale(0.9) */
     }
-    @media screen and (max-width:334px){
-        /* margin-right:100px; */
-        
-
-        
-    }
+  
   
   
 `
 export const Img = styled.img`
+     /* width:100%;
+     height:300px; */
+
     @media screen and (max-width:436px){
     }
    
@@ -282,8 +307,8 @@ export const Imgdiv = styled.p`
     text-align:center;
     justify-content:center;
     display:flex;
-    position:relative;
-    top:-410px;
+    position:absolute;
+    top:-80px;
     left:67px;
     width:100px;
     
@@ -313,8 +338,8 @@ export const MyLocationOnIconXorazm = styled(LocationOnIcon)`
 `
 
 export const Xorazmdiv = styled.p`
-    position:relative;
-    top:-458px;
+    position:absolute;
+    top:99px;
     opacity:0.5;
     left:146px;
     width:100px;
@@ -329,8 +354,8 @@ export const Xorazmdiv = styled.p`
 `
 
 export const Novoidiv = styled.div`
-     position:relative;
-    top:-621px;
+     position:absolute;
+    top:10px;
     left:208px;
     opacity:0.5;
     width:100px;
@@ -362,8 +387,8 @@ export const MyLocationOnIconNovoi = styled(LocationOnIcon)`
 
 
 export const Buxorodiv = styled.div`
-       position:relative;
-    top:-721px;
+       position:absolute;
+    top:124px;
     left:224px;
     opacity:0.5;
     width:100px;
@@ -393,8 +418,8 @@ export const MyLocationOnIconBuxoro = styled(LocationOnIcon)`
 `
 
 export const Jizzaxdiv = styled.div`
-        position:relative;
-    top:-833px;
+        position:absolute;
+    top:135px;
     left:385px;
     opacity:0.5;
     width:100px;
@@ -421,8 +446,8 @@ export const MyLocationOnIconJizzax = styled(LocationOnIcon)`
     }
 `
 export const Karshidiv = styled.div`
-         position:relative;
-    top:-839px;
+         position:absolute;
+    top:217px;
     left:303px;
     opacity:0.5;
     width:100px;
@@ -436,8 +461,8 @@ export const Karshidiv = styled.div`
 `
 
 export const Samarqanddiv = styled.div`
-          position:relative;
-    top:-966px;
+          position:absolute;
+    top:165px;
     left:331px;
     opacity:0.5;
     width:100px;
@@ -467,8 +492,8 @@ export const MyLocationOnIconKarshi = styled(LocationOnIcon)`
 `
 
 export const Termizdiv = styled.div`
-         position:relative;
-    top:-957px;
+         position:absolute;
+    top:241px;
     left:381px;
     opacity:0.5;
     width:100px;
@@ -499,8 +524,8 @@ export const MyLocationOnIconTermiz = styled(LocationOnIcon)`
 `
 
 export const Tashkentdiv = styled.div`
-           position:relative;
-    top:-1185px;
+           position:absolute;
+    top:87px;
     left:459px;
     opacity:0.5;
     width:100px;
@@ -530,22 +555,21 @@ export const MyLocationOnIconTashkent = styled(LocationOnIcon)`
 `
 
 export const Toshdiv = styled.div`
-            position:relative;
-    top:-1230px;
+            position:absolute;
+    top:148px;
     left:438px;
     opacity:0.5;
     width:100px;
 `
 
 export const Andijondiv = styled.div`
-              position:relative;
-    top:-1275px;
+              position:absolute;
+    top:145px;
     left:565px;
     opacity:0.5;
     width:100px;
     &:hover{
         transition:1s;
-        transform:scale(1.1);
         cursor: pointer;
         opacity:8.8;
         
@@ -569,8 +593,8 @@ export const MyLocationOnIconAndijon = styled(LocationOnIcon)`
 `
 
 export const Namangandiv = styled.div`
-               position:relative;
-    top:-1296px;
+               position:absolute;
+    top:158px;
     left:520px;
     opacity:0.5;
     /* border:1px solid red; */
@@ -600,8 +624,8 @@ export const MyLocationOnIconNamangan = styled(LocationOnIcon)`
    }
 `
 export const Ferganadiv = styled.div`
-                position:relative;
-    top:-1374px;
+                position:absolute;
+    top:115px;
     left:522px;
     opacity:0.5;
     width:100px;
@@ -689,9 +713,9 @@ export const MainContainer = styled.div`
     }   
 `
 export const H111 = styled.h3`
-     padding:10px;
         font-weight:700;
         font-size:24px;
+        padding-left:20px;
         width:100%;
         display:flex;
       
@@ -702,17 +726,26 @@ export const H111 = styled.h3`
             width:100%;
 
         }
+
+        @media screen and(max-width:385px){
+        margin-top:50px;
+    }   
 `
 
 export const Promax = styled.p`
-          width:85%;
-    display:flex;
+          width:100%;
     justify-content:center;
     font-weight: 400;
     padding:20px;
     height:200px;
+    border:1px solid red;
     font-size: 20px;
     line-height: 137.7%;
+    @media screen and (max-width:838px) {
+        text-align:center;
+    }    
+
+
     @media screen and(max-width: 588px){
         text-align:center;
             display:flex;
@@ -740,9 +773,12 @@ export const MainMatn = styled.div`
         width:100%;
         
     }
-    @media screen and(max-width:585px){
-        height:550px;
+   
+    @media screen and(max-width:385px){
+        margin-top:50px;
+        width:100%;
     }   
+
 
 
      
@@ -965,11 +1001,12 @@ export const MainMaps = styled.div`
     width:100%;
     height:500px;
     display:flex;
+    border:1px solid green;
     margin-top:50px;
     justify-content:center;
     align-items:center;
 
-    padding:0 8%;
+    /* padding:0 5%; */
 
     @media screen and (max-width:1303px){
         display:flex;
@@ -983,7 +1020,8 @@ export const MainMaps = styled.div`
     @media screen and (max-width:960px){
         display:flex;
         margin-top:100px;
-        height:1200px;
+        height:800px;
+        border:1px solid yellow;
         justify-content:space-between;
         flex-direction:column;
     }
@@ -999,6 +1037,7 @@ export const Digital = styled.div`
     flex-direction:column;
     /* padding-left:50px; */
     padding:0px 40px;
+    border:1px yellow solid ;
     padding-top:50px;
     /* padding:100px; */
     h1{
@@ -1022,7 +1061,7 @@ export const Digital = styled.div`
 `
 
 export const PEY = styled.p`
-    width:100%;
+    width:80%;
     @media screen and (max-width:599px) {
         width:100%;
     }
@@ -1042,56 +1081,40 @@ export const HHH1 = styled.h1`
     }
 `
 export const AndijonMaps = styled.div`
-    width:100%;
-    /* border:1px solid red; */
+    width:50%;
+    /* border:1px solid blanchedalmond; */
     height:500px;
+    position:relative;
+    @media screen and (max-width:1234px) {
+        margin-top:50px;
+    }
+    
+    /* @media screen and (max-width:755px) {
+        background-image: url(${AndijonQarta});
+        background-repeat: no-repeat;
+        width:100%;
+        display:flex;
+        justify-content:center;
+        transform: scale(0.6);
+    } */
 
 `
 
 
 export const AndMaps = styled.div`
     display:flex;
-    width:100%;
+    width:50%;
+    border:1px solid red;
     justify-content:center;
-    align-items:center;
-    /* margin-top:150px; */
-    /* border:1px solid red; */
-    img{
-        /* position: relative; */
-        width: 700px;
-        @media screen and (max-width:1303px) {
-            margin-top:50px;
-        }
-        @media screen and (max-width:960px) {
-            margin-top:-160px;
-        }
-        
-    }
-    @media screen and (max-width:802px) {
-        transform:scale(0.8)
-    }
-    @media screen and (max-width:726px) {
-    }
-    @media screen and (max-width:634px) {
-        /* margin-top:50px; */
-        width:100%;
-        transform:scale(0.5)
-    }
-    @media screen and (max-width:634px) {
-    margin-top:50px;
-    transform:scale(0.5)
-}
-    @media screen and (max-width:592px) {
-        width:100%;
-        transform:scale(0.5)
-    }
+    /* align-items:center; */
+    
 `
 
 export const AndijonSH = styled.div`
-    position:relative;
-    top:-290px;
+    position:absolute;
+    top:95px;
     width:100px;
-    left:558px;
+    left:292px;
     display:flex;
     justify-content:center;
     /* opacity:0.5; */
@@ -1120,10 +1143,10 @@ export const ImgQurgontepaBinosi = styled.img`
    }
 `
 export const JalaquduqSh = styled.div`
-      position:relative;
-    top:-428px;
+    position:absolute;
+    top:120px;
     width:100px;
-    left:470px;
+    left:200px;
     display:flex;
     justify-content:center;
     /* border:1px solid red; */
@@ -1155,7 +1178,7 @@ export const MyLocationOnIconJalaquduqSH = styled.img`
 `
 export const XujabotSH = styled.div`
       position:relative;
-    top:-510px;
+    top:-515px;
     width:100px;
     left:440px;
     display:flex;
@@ -1189,9 +1212,9 @@ export const MyLocationOnIconXujabotSH  = styled.img`
 `
 export const BuloqboshiSH = styled.div`
        position:relative;
-    top:-615px;
+    top:-620px;
     width:100px;
-    left:385px;
+    left:380px;
     display:flex;
     justify-content:center;
     /* border:1px solid red; */
@@ -1222,10 +1245,10 @@ export const MyLocationOnIconBuloqboshiSH  = styled.img`
    }
 `
 export const MarxamatSH = styled.div`
-       position:relative;
-    top:-675px;
+       position:absolute;
+    top:245px;
     width:100px;
-    left:330px;
+    left:70px;
     display:flex;
     justify-content:center;
     object-fit:contain;
@@ -1280,10 +1303,10 @@ export const ImgAndijonBinosi = styled.img`
 `
 
 export const PaxtabodSH = styled.div`
-        position:relative;
-    top:-1215px;
+        position:absolute;
+    top:0px;
     width:100px;
-    left:395px;
+    left:126px;
     display:flex;
     justify-content:center;
     &:hover{
@@ -1312,10 +1335,10 @@ export const ImgPaxdabodBinosi = styled.img`
 `
 
 export const IzboskanSH = styled.div`
-           position:relative;
-    top:-1309px;
-    width:100px;
-    left:316px;
+           position:absolute;
+    top:20px;
+    width:110px;
+    left:45px;
     display:flex;
     justify-content:center;
     &:hover{
@@ -1339,7 +1362,7 @@ export const ImgIzboskanBinosi = styled.img`
 
 export const Oltinkul = styled.div`
             position:relative;
-    top:-1325px;
+    top:-1320px;
     width:100px;
     left:245px;
     display:flex;
@@ -1366,7 +1389,7 @@ export const ImgOltinkulBinosi = styled.img`
 
 export const BaliqchiSH = styled.div`
             position:relative;
-    top:-1438px;
+    top:-1430px;
     width:100px;
     left:185px;
     display:flex;
@@ -1381,10 +1404,10 @@ export const BaliqchiSH = styled.div`
     }
 `
 export const UlugnorSH = styled.div`
-            position:relative;
-    top:-1520px;
+            position:absolute;
+    top:90px;
     width:100px;
-    left:70px;
+    left:-200px;
     display:flex;
     justify-content:center;
     &:hover{
@@ -1413,10 +1436,10 @@ export const ImgBaliqchiBinosi = styled.img`
     left:-180px;
 `
 export const BostonSH = styled.div`
-             position:relative;
-    top:-1620px;
+             position:absolute;
+    top:160px;
     width:100px;
-    left:165px;
+    left:-105px;
     display:flex;
     justify-content:center;
     &:hover{
@@ -1438,10 +1461,10 @@ export const ImgBostonBinosi = styled.img`
     left:-80px;
 `
 export const ShaxrixonSHA = styled.div`
-             position:relative;
-    top:-1750px;
+             position:absolute;
+    top:138px;
     width:100px;
-    left:220px;
+    left:-51px;
     display:flex;
     justify-content:center;
     &:hover{
@@ -1817,3 +1840,18 @@ export const Paragraov = styled.div`
 //     justify-content:center !important;
 // `
 
+
+
+
+export const Img123 = styled.img`
+        height:380px;
+      /* @media screen and (max-width:735px) {
+            border:1px solid red;
+            
+            width:700px;
+        } */
+`
+
+// export const Oravoluvchi = styled.div`
+    
+// `
