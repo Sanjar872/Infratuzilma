@@ -119,7 +119,6 @@ export const QartaSection = styled.div`
         flex-direction:column;
         height:680px;
         display:flex;
-        border:1px solid red;
         justify-content:space-between
     }
     @media screen and (max-width:568px) {
@@ -143,7 +142,6 @@ export const QartaSection = styled.div`
 export const Ozbekiston = styled.div`
     width:50%;
     height:400px;
-    border:1px solid green;
     display:flex;
     flex-direction:column;
     color:white;
@@ -221,7 +219,6 @@ export const Mapuzb = styled.div`
     width:50%;
     height:250px;
     margin-top:50px;
-    border:1px solid yellow;
     position:relative;
     @media screen and (max-width:1235px) {
         transform:scale(0.8)
@@ -260,9 +257,9 @@ export const Mapuzb = styled.div`
 
 `
 export const MapsUzb = styled.div`
+    margin-top:-80px;
    height:400px;
    width:100%;
-   border:1px solid red;
    justify-content:center;
     @media screen and (max-width:1250px) {
         /* transform:scale(0.8) */
@@ -599,7 +596,6 @@ export const Namangandiv = styled.div`
     top:158px;
     left:520px;
     opacity:0.5;
-    /* border:1px solid red; */
     width:100px;
     &:hover{
         transition:1s;
@@ -740,7 +736,6 @@ export const Promax = styled.p`
     font-weight: 400;
     padding:20px;
     height:200px;
-    border:1px solid red;
     font-size: 20px;
     line-height: 137.7%;
     @media screen and (max-width:838px) {
@@ -977,33 +972,12 @@ p{
     padding-left:10px;
 
     }
-    /* @media screen and (max-width:1190px){
-            padding-left:20px;        
-    }
-    @media screen and (max-width:1139px){
-            padding-left:20px;  
-            margin-top:-50px;
-    }
-    @media screen and (max-width:1139px){
-            padding-left:20px;  
-            margin-top:-50px;
-    } */
-`
-
-// export const Logika = styled.div`
-//     width:100%;
-//     display:flex;
-//     border:1px solid red;
-//     justify-content:center;
-//     text-align:center;
-//     align-items:center;
-// `
+   `
 
 export const MainMaps = styled.div`
     width:100%;
     height:500px;
     display:flex;
-    border:1px solid green;
     margin-top:50px;
     justify-content:center;
     align-items:center;
@@ -1023,7 +997,6 @@ export const MainMaps = styled.div`
         display:flex;
         margin-top:100px;
         height:800px;
-        border:1px solid yellow;
         justify-content:space-between;
         flex-direction:column;
     }
@@ -1037,28 +1010,13 @@ export const Digital = styled.div`
     color:white;
     display:flex-start;
     flex-direction:column;
-    /* padding-left:50px; */
     padding:0px 40px;
-    border:1px yellow solid ;
     padding-top:50px;
-    /* padding:100px; */
-    h1{
-    }
-
-    /* p{
-        width:100%;
-        display:flex;
-        justify-content:center;
-        font-weight:400;
-        
-        align-items:center;
-        font-size:18px;
-        line-height: 137.7%;
-    } */
-
+  
     @media screen and (max-width:959px){
         width:100%;
         height:300px;
+        text-align:center;
     }
 `
 
@@ -1084,31 +1042,37 @@ export const HHH1 = styled.h1`
 `
 export const AndijonMaps = styled.div`
     width:50%;
-    /* border:1px solid blanchedalmond; */
-    height:500px;
+    height:400px;
     position:relative;
     @media screen and (max-width:1234px) {
         margin-top:50px;
+        transform:scale(0.8)
+    }
+
+    @media screen and (max-width:750px) {
+        transform:scale(0.7)
+    }
+    @media screen and (max-width:555px) {
+        transform:scale(0.5);
+        margin-left:70px;
+        margin-top:-120px;
+    }
+    @media screen and (max-width:358px) {
+        transform:scale(0.4);
+    }
+    @media screen and (max-width:290px) {
+        transform:scale(0.3);
+        margin-top:50px;
+
     }
     
-    /* @media screen and (max-width:755px) {
-        background-image: url(${AndijonQarta});
-        background-repeat: no-repeat;
-        width:100%;
-        display:flex;
-        justify-content:center;
-        transform: scale(0.6);
-    } */
-
 `
 
 
 export const AndMaps = styled.div`
     display:flex;
     width:50%;
-    border:1px solid red;
     justify-content:center;
-    /* align-items:center; */
     
 `
 
@@ -1118,7 +1082,6 @@ export const AndijonSH = styled.div`
     left:135px;
     display:flex;
     justify-content:center;
-    /* opacity:0.5; */
     &:hover{
         transition:1s;
         transform:scale(1.1);
@@ -1149,8 +1112,6 @@ export const JalaquduqSh = styled.div`
     left:136px;
     display:flex;
     justify-content:center;
-    /* border:1px solid red; */
-    /* opacity:0.5; */
     &:hover{
         transition:1s;
         transform:scale(1.1);
@@ -1182,8 +1143,6 @@ export const XujabotSH = styled.div`
     left:90px;
     display:flex;
     justify-content:center;
-    /* border:1px solid red; */
-    /* opacity:0.5; */
     &:hover{
         transition:1s;
         transform:scale(1.1);
@@ -1215,8 +1174,6 @@ export const BuloqboshiSH = styled.div`
     left:80px;
     display:flex;
     justify-content:center;
-    /* border:1px solid red; */
-    /* opacity:0.5; */
     &:hover{
         transition:1s;
         transform:scale(1.1);
@@ -1250,8 +1207,6 @@ export const MarxamatSH = styled.div`
     justify-content:center;
     object-fit:contain;
 
-    /* border:1px solid red; */
-    /* opacity:0.5; */
     &:hover{
         transition:1s;
         transform:scale(1.1);
@@ -1276,8 +1231,6 @@ export const AndojonSHa = styled.div`
     left:35px;
     display:flex;
     justify-content:center;
-    /* border:1px solid red; */
-    /* opacity:0.5; */
     &:hover{
         transition:1s;
         transform:scale(1.1);
