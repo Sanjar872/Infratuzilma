@@ -6,11 +6,11 @@ import { useEffect } from 'react';
 
 function App() {
   useEffect(() => {
-    AOS.init({
-      offset: 120,
-      delay: 0,
-      duration: 400,
-    });
+    AOS.init(
+      // offset: 120,
+      // delay: 0,
+      // duration: 400,
+    );
     AOS.refresh();
     
   

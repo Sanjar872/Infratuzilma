@@ -119,16 +119,23 @@ export const QartaSection = styled.div`
         flex-direction:column;
         height:680px;
         display:flex;
-        justify-content:space-between
+        justify-content:space-between;
+        transform:scale(0.7);
     }
     @media screen and (max-width:568px) {
         height:500px;
         align-items: flex-start;
+        transform:scale(0.6);
+        width:100%;
+
         
     }
     @media screen and (max-width:508px) {
         height:450px;
         justify-content:space-between;
+        transform:scale(0.5);
+        font-size:18px;
+
         
     }
     @media screen and (max-width:385px) {
@@ -145,9 +152,13 @@ export const Ozbekiston = styled.div`
     display:flex;
     flex-direction:column;
     color:white;
+    @media screen and (max-width:855px) {
+        width:100%;
+    }
     @media screen and (max-width:640px) {
         width:100%;
         height:300px;
+        font-size:22px;
     }
    
 
@@ -165,7 +176,7 @@ export const PP3 = styled.p`
           cursor: pointer;
     }
 
-        @media screen and (max-width:838px) {
+        @media screen and (max-width:955px) {
         width: 100%;
         height:400px;
         line-height:25px;
@@ -175,6 +186,7 @@ export const PP3 = styled.p`
     @media screen and(max-width:818px) {
             text-align:center;
             display:flex;
+            font-size:30px;
             width:110%;
         transform: scale(0.7);
     }
@@ -231,28 +243,30 @@ export const Mapuzb = styled.div`
     width:50%;
     height:250px;
     margin-top:50px;
-    position:relative;
+    /* position:relative; */
     @media screen and (max-width:1235px) {
-        transform:scale(0.8)
+        transform:scale(0.6);
+        margin-top:50px;
     }
   
     @media screen and (max-width:1030px) {
-        transform:scale(0.7)
+        transform:scale(0.5);
+        margin-top:50px;
     }
   
     @media screen and (max-width:912px) {
         transform:scale(0.6)
     }
     @media screen and (max-width:767px) {
-        transform:scale(0.5);
-        /* margin-left:-100px; */
+        transform:scale(0.4);
+        margin-left:-50px;
         display:flex;
         width:100%;
         flex-direction:column;
     }
-    @media screen and (max-width:530px) {
-        transform:scale(0.4);
-        margin-left:-30px;
+    @media screen and (max-width:555px) {
+        transform:scale(0.2);
+        margin-left:-75px;
     }
     @media screen and (max-width:350px) {
         width:100%;
@@ -277,17 +291,12 @@ export const MapsUzb = styled.div`
         /* transform:scale(0.8) */
         width:100%;
     }
+    @media screen and (max-width:515px) {
+        /* transform:scale(0.8) */
+        width:100%;
+    }
 
-    @media screen and (max-width:578px){
-        /* margin-top:-150px; */
-    }
-    @media screen and (max-width:573px){
-        /* margin-top:-200px; */
-    }
-    @media screen and (max-width:474px){
-        
-        /* transform:scale(0.9) */
-    }
+    
   
   
   
@@ -696,20 +705,21 @@ export const MainContainer = styled.div`
     width:100%;
     height:550px;
     margin-top:150px;
+    border:1px solid red;
     display:flex;
     justify-content:space-between;
     align-items:center;
     @media screen and (max-width:1205px){
         width:100%;
+        height:550px;
         transform:scale(0.8);
-    }
-    @media screen and (max-width:1205px){
-        width:100%;
-        /* transform:scale(0.7) */
+        margin-top:50px;
+        
     }
     @media screen and (max-width:999px){
         width:100%;
         display:flex;
+        margin-top:100px;
         justify-content:center;
         transform:scale(0.6);
     }
@@ -717,9 +727,12 @@ export const MainContainer = styled.div`
         width:100%;
         display:flex;
         flex-direction:column;
+        margin-top:50px;
+
+
     }
     @media screen and(max-width:585px){
-        margin-top:50px;
+        margin-top:150px;
     }   
 `
 export const H111 = styled.h3`
@@ -788,8 +801,16 @@ export const MainMatn = styled.div`
     flex-direction:column;
     justify-content:center;
     @media screen and (max-width:999px){
+        /* margin-right:25px; */
+        margin-top:100px;
+        height:500px;
+        width:100%;
+        text-align:center;
+        
+    }
+    @media screen and (max-width:779px){
         margin-right:25px;
-        margin-top:-120px;
+        margin-top:150px;
         width:100%;
         
     }
@@ -939,22 +960,19 @@ export const Qwer = styled.div`
     justify-content:center;
     text-align:center;
     margin-top:20px;
-    /* padding-left:100px;  */
+    padding-left:120px; 
     @media screen and(max-width:964px){
         transform:scale(0.8);
         margin-top:80px;
     }
     @media screen and(max-width:999px){
         transform:scale(0.2);
-        margin-left:-100px;
     }
     @media screen and(max-width:999px){
         transform:scale(0.2);
-        margin-left:-100px;
     }
 
     @media screen and (max-width:781px){
-        margin-top:100px;
     }
    
 `
