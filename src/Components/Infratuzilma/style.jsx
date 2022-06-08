@@ -158,6 +158,12 @@ export const PP3 = styled.p`
         line-height:30px;
         font-size:18px;
         padding-left:30px;
+        &:hover {
+        transform:scaleY(1.2);
+          /* transform: translate(120px, 50%); */
+          transition:1s;
+          cursor: pointer;
+    }
 
         @media screen and (max-width:838px) {
         width: 100%;
@@ -177,6 +183,12 @@ export const H33 = styled.h3`
     font-size:24px;
     padding:20px;
     padding-left:30px;
+    &:hover {
+        transform:scaleY(1.6);
+          /* transform: translate(120px, 50%); */
+          transition:1s;
+          cursor: pointer;
+    }
     @media screen and (max-width:838px) {
         width: 100%;
         font-size:20px;
@@ -693,7 +705,7 @@ export const MainContainer = styled.div`
     }
     @media screen and (max-width:1205px){
         width:100%;
-        transform:scale(0.7)
+        /* transform:scale(0.7) */
     }
     @media screen and (max-width:999px){
         width:100%;
@@ -716,7 +728,11 @@ export const H111 = styled.h3`
         padding-left:20px;
         width:100%;
         display:flex;
-      
+      &:hover{
+          transform:scaleY(1.8);
+          transition:1s;
+          cursor: pointer;
+      }
             
         @media screen and (max-width:588px){
             text-align:center;
@@ -735,9 +751,16 @@ export const Promax = styled.p`
     justify-content:center;
     font-weight: 400;
     padding:20px;
-    height:200px;
+    height:100px;
     font-size: 20px;
     line-height: 137.7%;
+    &:hover{
+          transform:scaleY(1.5);
+          /* transform: translate(120px, 50%); */
+          transition:1s;
+          cursor: pointer;
+      }
+
     @media screen and (max-width:838px) {
         text-align:center;
     }    
@@ -757,7 +780,7 @@ export const Promax = styled.p`
   
 `
 export const MainMatn = styled.div`
-    width:65%;
+    width:60%;
     height:500px;
     color:white;
     display:flex;
@@ -799,6 +822,7 @@ export const Krug1 = styled.div`
         transform:scale(1.1);
         transform:1s;
         cursor: pointer;
+        
         
     }
     span{
@@ -915,7 +939,7 @@ export const Qwer = styled.div`
     justify-content:center;
     text-align:center;
     margin-top:20px;
-    padding-left:100px; 
+    /* padding-left:100px;  */
     @media screen and(max-width:964px){
         transform:scale(0.8);
         margin-top:80px;
@@ -938,7 +962,7 @@ export const Krug4 = styled.div`
         color:white;
     width:50px;
     height:50px;
-    top:510px;
+    top:535px;
     left:-535px;
     display:flex;
     flex-direction:column;
@@ -1012,6 +1036,7 @@ export const Digital = styled.div`
     flex-direction:column;
     padding:0px 40px;
     padding-top:50px;
+
   
     @media screen and (max-width:959px){
         width:100%;
@@ -1022,6 +1047,16 @@ export const Digital = styled.div`
 
 export const PEY = styled.p`
     width:80%;
+    padding-top:20px;
+    font-size:18px;
+    margin-top:10px;
+    &:hover {
+        transform:scaleY(1.5);
+          /* transform: translate(120px, 50%); */
+          transition:1s;
+          cursor: pointer;
+          font-weight:500;
+    }
     @media screen and (max-width:599px) {
         width:100%;
     }
@@ -1035,9 +1070,16 @@ export const PEY = styled.p`
     }
 `
 export const HHH1 = styled.h1`
+   &:hover {
+        transform:scaleY(1.6);
+          /* transform: translate(120px, 50%); */
+          transition:1s;
+          cursor: pointer;
+    }
     @media screen and (max-width:528px){
         font-size:25px;
         text-align:center;
+     
     }
 `
 export const AndijonMaps = styled.div`
@@ -1570,7 +1612,7 @@ export const Border = styled.div`
 export const Paragraov = styled.div`
     width:20%;
     color:white;
-    font-size:12px;
+    font-size:13px;
     display:flex;
     flex-direction:column;
     align-items: flex-end;
@@ -1588,7 +1630,7 @@ export const Paragraov = styled.div`
             font-size:10px !important;
         }
         @media (max-width:530px){
-        font-size:8px !important;
+        font-size:10px !important;
         width:120px !important;
         }
 
@@ -1670,6 +1712,7 @@ export const Paragraov = styled.div`
    export const Paragraov2 = styled.div`
    width:20%;
    color:white;
+   font-size:14px;
    display:flex;
    flex-direction:column;
    align-items: flex-start;
@@ -1685,14 +1728,13 @@ export const Paragraov = styled.div`
             font-size:10px !important;
         }
         @media (max-width:530px){
-        font-size:8px !important;
+        font-size:10px !important;
         width:120px !important;
     }
         :nth-child(1){
             height:100px;
             margin-top:250px;
             width:300px;
-            font-size:12px;
             margin-left:-40px;
 
         }
@@ -1701,28 +1743,24 @@ export const Paragraov = styled.div`
             margin-top:20px;
             width:300px;
             padding-top:15px;
-            font-size:12px;
             margin-left:-110px;
         }:nth-child(3){
             height:100px;
             margin-top:20px;
             width:300px;
             padding-top:12px;
-            font-size:12px;
             margin-left:-45px;
         }:nth-child(4){
             height:100px;
             margin-top:5px;
             width:300px;
             padding-top:10px;
-            font-size:12px;
             margin-left:-108px;
         }:nth-child(5){
             height:100px;
             margin-top:105px;
             width:300px;
             padding-top:15px;
-            font-size:12px;
             margin-left:-110px;
         }:nth-child(6){
             height:50px;
@@ -1736,14 +1774,12 @@ export const Paragraov = styled.div`
             width:300px;
             margin-top:20px;
             padding-top:15px;
-            font-size:12px;
             margin-left:-110px;
         }:nth-child(8){
             height:50px;
             width:300px;
             margin-top:30px;
             padding-top:15px;
-            font-size:12px;
             margin-left:-220px;
         }:nth-child(9){
             

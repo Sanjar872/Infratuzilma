@@ -104,14 +104,14 @@ const Home = () => {
 
           </ul>
         </Bar> */}
-        <Ozbekiston>
+        <Ozbekiston data-aos="fade-right"  data-aos-duration="1000">
           <H33>Oʻzbekistondagi IT markazlar</H33>
           <PP3>
             Bugungi kunga qadar O‘zbekistonning ko‘plab hududlarida IT markazlari tashkil etilgan. Bundan ko'zlangan maqsad qiziquvchan yoshlarni IT ta’limga rag'batlantirish, ularning innovatsion loyihalarini qo'llab quvvatlash va aholi turmush sharoitini yaxshilash kabi masalalar ilgari surilgan.
           </PP3>
         </Ozbekiston>
 <br />
-        <Mapuzb>
+        <Mapuzb data-aos="fade-left" data-aos-duration="1000">
           <MapsUzb>
             <Img src={Maps} alt="" />
           </MapsUzb>
@@ -195,22 +195,25 @@ const Home = () => {
               <MyLocationOnIconFer />
             </Ferganadiv>
           </Tooltip>
-          <Operator>
+          {/* <Operator>
             <MyPhoneIcon />
             <h1>1227</h1>
-          </Operator>
+          </Operator> */}
         </Mapuzb>
       </QartaSection>
       {/* ____________________________________________  */}
 
         <br />
-      <MainContainer>
+      <MainContainer data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500">
         <MainMatn>
-          <H111>Andijon viloyatida IT markazlar </H111>
+          <H111  >Andijon viloyatida IT markazlar </H111>
           <Promax>Respublikamizda boshqa viloyatlarga qaraganda Andijon viloyatida IT sohasiga qiziquvchi yoshlar soni tobora ortib borayotganligi tufayli viloyatdagi IT markazlari soni 37 nafarga yetdi. </Promax>
         </MainMatn>
 
-        <Qwer>
+        <Qwer >
           {/* <Logika> */}
           <img src={MainImg} alt="" />
 
@@ -237,8 +240,8 @@ const Home = () => {
 
       </MainContainer>
       <br /><br /><br /><br />
-      <MainMaps>
-        <Digital>
+      <MainMaps  data-aos="zoom-in">
+        <Digital  >
             <HHH1>	“Digital City” Texnopark</HHH1>
             <PEY>Digital City texnoparki Andijon viloyatidagi yetakchi IT markazlardan biridir. 5,6 gektar maydonda qurib bitkazilgan, 4 kavatli 3,5 ming kv.m. ni tashkil etadigan ushbu majmua axborot texnologiyalari va innovatsion loyihalarni qo‘llab-quvvatlash, dasturiy mahsulotlar eksportini yo‘lga qo‘yish va 50 dan ortiq IT sohasida xizmat ko‘rsatadigan korxonalarni joylashtirish uchun mo‘ljallangan. </PEY>
         </Digital>
